@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title> <!-- là tên của trang web hiển thị thanh tab-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML,tutorial">
+        <meta name="author" content="Nah">
+        <meta http-equiv="refresh" content="30">
+    </head>
+    <body style="background-color:#ffffff;">
+
+        <!-- This is a comment -->
+        <h1 style="color:red; background-color: aliceblue;">Hello mấy fen</h1>
+        <hr>
+        <h3> Đây là văn bản mẫu :DD </h3>
+        <p style="color:antiquewhite;background-color: black;">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Doloribus est error recusandae, 
+        saepe possimus blanditiis maiores in sunt modi soluta. 
+        Exercitationem id obcaecati, praesentium quos sint eius earum 
+        similique pariatur?</p>
+
+        <p style="color:lawngreen;background-color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Doloribus est error recusandae, 
+            saepe possimus blanditiis maiores in sunt modi soluta. 
+            Exercitationem id obcaecati, praesentium quos sint eius earum 
+            similique pariatur?</p>
+        
+        <hr>
+        <h3>Format of text code</h3>
+        This is normal text <br>
+        This is <b>bold</b> and <i>italic</i> text <br>
+        This is <u>underlined</u> or <ins>inserted</ins> text <br>
+        This is <del>deleted</del> or <s>strikethrough</s><br>
+        This is <small>small</small> and <big>big</big> text <br>
+        This is <sub>subscript</sub> and <sup>superscript</sup> text <br>
+        This is <mark>marked</mark> text
+        
+        <hr>
+        <h3>Link and image</h3>
+        <a href="http://www.google.com" target=_blank>Google</a>
+        <!--target để nhấn vào chuyển qua tab mới-->
+        <a href="meme.jpg" 
+        download="Meme1">Download meme</a>
+        <!--link + tên meme khi lưu vào máy-->
+        <br><br>
+        <img src="meme.jpg" 
+        alt="This is a meme" height=50% width=50%>
+        <!--alt là khi ảnh không laod dc sẽ hiện ra-->
+        <br><br>
+        <a href="https://www.pinterest.com/search/pins/?q=anime%20react&rs=typed" target=_blank>
+            <img src="meme2.jpg" 
+            height=50% width=50% alt="This is another meme"></a>
+    
+        <hr>
+        <h3>List</h3>
+        <h4>Top Anime</h4>
+        <!-- Unordered List -->
+        <ul style="list-style-type:armenian">
+            <li>Oshi no Ko</li>
+            <li>Fullmetal Alchemist</li>
+            <li>Shingeki no Kyojin</li>
+            <li>Gintama</li>
+        </ul>
+        <h4>Top Movies</h4>
+        <!-- Ordered List -->
+        <ol type="1">
+            <li>Gintama: The Final</li>
+            <li>Koe no Katachi</li>
+            <li>Kaguya-sama wa Kokurasetai</li>
+            <li>Violet Evergaren</li>
+        </ol>
+        <h4>Top manga</h4>
+        <!-- Description List -->
+        <dl>
+            <dt>One Piece</dt>
+            <dd>-Monkey D. Luffy</dd>
+            <dt>Akira</dt>
+            <dd>-Tetsuo</dd>
+            <dt>Attack on Titan </dt>
+            <dd>-Eren</dd>
+        </dl>
+        <!-- Nest of list -->
+        <h4>Nest of list</h4>
+        <ul style="list-style-type: circle">
+            <li>Oshi no Ko</li>
+            <li>Fullmetal Alchemist</li>
+            <li>Nah
+                <ul style="list-style-type: georgian;">
+                    <li>SomeThing</li>
+                    <li>SomeWhere</li>
+                    <li>SomeHow</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+        <h3>Table</h3>
+        <table border=2px bgcolor="grey" height=150 width=100%>
+            <tr bgcolor="#4287f5" align=center>
+                <th height=10 width=75>Month:</th>
+                <th>January</th>
+                <th>Febuay</th>
+                <th>March</th>
+                <th>Aril</th>
+            </tr>
+            <tr bgcolor="#de1ef7" align="center">
+                <th>Income:</th>
+                <td>$1500</td>
+                <td>$1750</td>
+                <td>$1250</td>
+                <td>$500</td>
+            </tr>
+            <tr bgcolor="#2dd613" align="center">
+                <th>Expenses:</th>
+                <td>$100</td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$400</td>
+            </tr>
+        </table>
+        
+        <hr>
+        <h3>Audio</h3>
+        Ice cream cutest: <br><br>
+        <audio controls> <!--autoplay loop muted-->
+            <source src="heiakim - loli selling ice cream.mp4">
+            your browser doesn't support audio
+        </audio>
+        
+        <hr>
+        <h3>Video</h3> <!--autoplay loop muted-->
+        <video height=650 width=100% controls>
+            <source src="Bachira trying to speak English 笑 - Bluelock anime funny moment.mp4">
+        </video>
+
+        <hr>
+        <h3>Buttons</h3>
+        <button name="simple_button" type="button">
+            Click me to get horny
+        </button>
+        <button disabled>
+            Disabled
+        </button>
+        <button autofocus>
+            Autofocus
+        </button>
+        <button onclick="alert('You get horny')"> 
+            ALERT! 
+        </button>
+        <!-- button link -->
+        <a href="http://www.google.com">
+            <button>Google</button>
+        </a>
+
+        <br><br>
+        <button style="background-color: blueviolet;
+                        color: aqua;
+                        font-size:18px;
+                        font-family:monospace;">
+            CSS Style</button>
+
+        <hr>
+        <form action="Do_SOMETHING.PHP">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Cao Phong">
+            <br><br>
+
+            <label for="Title">Title</label>
+            <label for="Mr">Mr.</label>
+            <input type=radio value="Mr." id="Mr." name="title">
+            <label for="Miss">Miss</label>
+            <input type=radio value="Miss" id="Miss" name="title">
+            <label for="Mrs">Mrs</label>
+            <input type=radio value="Mrs" id="Mrs" name="title">
+            <br><br>
+
+            <label for="payment">Payment</label>
+            <select name="payment" id="payment">
+                <option value="Visa">Visa</option>
+                <option value="Check">Check</option>
+            </select>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="cao.phong@hotmail.com">
+            <br><br>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" placeholder="YYYY-MM-DD" min="2000-01-01">
+            <br><br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="'0" max="99" value="1">
+            <br><br>
+
+            <label for="phone">Phone #</label>
+            <input type="tel" id="phone" name="phone" placeholder="(999)999-9999">
+            <br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" placeholder="Password" maxlenght="12">
+            max 12 characters
+            <br><br>
+
+            <label for="slider">Rate</label>
+            <input type="range" step="5" value="100">5
+            <br><br>
+
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <br><br>
+
+            <label for="myfile">Upload a file</label>
+            <input type="file" id="myfile" name="myfile" accept=".txt">
+            <br><br>
+
+            <input type="reset">
+            <input type="submit">
+        </form>
+        
+        <hr>
+        <h3>Span tag</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. <span style="color:red">Doloribus est error recusandae, 
+        saepe possimus blanditiis maiores in sunt modi soluta. 
+        Exercitationem id obcaecati,</span> praesentium quos sint eius earum 
+        similique pariatur?</p>
+
+        <h3>Div tag</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.<div style="color:red">Doloribus est error recusandae, 
+            saepe possimus blanditiis maiores in sunt modi soluta. 
+            Exercitationem id obcaecati,</div> praesentium quos sint eius earum 
+            similique pariatur?</p>
+    </body>
+</html>
