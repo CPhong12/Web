@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Instrument Serif', serif;
+    color:aqua
+}
+p{
+    font-family: "Ink Free", "MV Boli", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px; /*1em*/
+    text-decoration: normal; /*underline wavy blue;*/
+    color:rgb(0, 247, 255)
+}

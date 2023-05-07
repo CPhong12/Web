@@ -1,0 +1,21 @@
+h1{
+    margin: auto;
+    border: 1px solid;
+    width: 215px;
+    padding: 25px;
+    border-color: aqua;
+    text-shadow:2px 5px 5px yellow, 2px 0px 5px red;
+    /*
+        horizontal (px)
+        vertical (px)
+        blur (px)
+        color (name,rgb,hex)
+    */
+    box-shadow: 10px 10px 20px aqua;
+    /*
+       horizontal (px)
+        vertical (px)
+        blur (px)
+        color (name,rgb,hex)
+    */ 
+}

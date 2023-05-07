@@ -1,0 +1,17 @@
+h1{
+    border-bottom-style:dotted;
+    border-top-style:dashed;
+    border-left-style:solid;
+    border-left: solid 10px;
+    border-left-color:aliceblue;
+}
+p{
+    padding: 5px;
+    border-style: solid;
+    border-style: dashed;
+    /*dotted - double - ridge - groove - inset - outset*/
+    border-width: 3px 5px 3px 5px;
+    /* up - right - bot - left*/
+    border-color: #00FF00;
+    border-radius: 5px; /* độ cong của góc */
+}
