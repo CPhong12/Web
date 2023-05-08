@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Sidebar_style.css"/>
+        <script src="https://kit.fontawesome.com/b9980e899c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="sidebar">
+            <div class="sidebar-inner">
+                <header class="sidebar-header">
+                    <button
+                    type="button"
+                    class="sidebar_burger"
+                    onclick="toggleSidebar()"></button>
+                    <img src="bars-solid.svg"
+                    class="sidebar-logo"/>
+                </header>
+                <nav class="sidebar-menu">
+                    <button type="button" class="has-border">
+                        <img src="gear-solid.svg"/>
+                        <span>Settings</span>
+                    </button>
+                    <!--rest of buttons-->
+                </nav>
+            </div>
+        </nav>
+        <script type="text/javascript">
+            const toggleSidebar =  () =>
+                document.body.classList.toggle("open");
+        </script>
+    </body>
+</html>
