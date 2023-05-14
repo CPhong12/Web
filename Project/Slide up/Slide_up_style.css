@@ -2,9 +2,9 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top:25%
+    align-self: center;
+
 }
 h1{
     margin:0;
@@ -16,7 +16,7 @@ h1{
     overflow: hidden;
     border: 1px solid #333333;
     background: #555555;
-    margin-top:center;
+    align-self: center;
 }
 .hid-box {
     top: 100%;
